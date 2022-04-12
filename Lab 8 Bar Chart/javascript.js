@@ -18,14 +18,14 @@ var myChart = new Chart(ctx, {
         plugins: {
             title: {
                 display: true,
-                text: 'Average GDP per Capita by Region',
+                text: 'Europe and Central Asia have the highest average GDP per capita',
                 font: {
                     size: 18
                 }
             },
             subtitle: {
                 display: true,
-                text: 'Europe and Central Asia had the highest average GDP per capita out of the six regions.'
+                text: 'According to Gapminder, Europe and Central Asia have thie highest average GDP per capita, while Sub-Saharan Africa has the lowest out of the six regions.'
             }
         },
         scales: {

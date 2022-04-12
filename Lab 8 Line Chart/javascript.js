@@ -46,14 +46,14 @@ var myChart = new Chart(ctx, {
         plugins: {
             title: {
                 display: true,
-                text: 'Life expectancy in the largest countries in the world over time',
+                text: 'The United States has had the highest life expectancy since 1800',
                 font: {
                     size: 18
                 }
             },
             subtitle: {
                 display: true,
-                text: 'The United States has had the highest life expectancy of the largest countries in the world since 1800.'
+                text: 'According to Gapminder, the United States has had the highest life expectancy of the largest countries in the world, while India has had the lowest since 1800.'
             }
         },
         scales: {
